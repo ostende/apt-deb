@@ -1,6 +1,6 @@
 #!/bin/bash -e
 # DmArabia Installer v.03
-echo deb [trusted=yes] https://github.com/ostende/apt-deb/blob/master/Gemini/Dm920/apt/ ./ > /etc/apt/sources.list.d/dmarabia.list
+echo deb [trusted=yes] https://apt.fury.io/ostende/ ./ > /etc/apt/sources.list.d/dmarabia.list
 apt-get update
 sleep 3
 echo ""
