@@ -7,11 +7,17 @@ echo ""
 echo "************************"
 read -p "Gui Restart? (y/n): " response </dev/tty
 if [ "$response" == "y" ]; then
-    echo "تمت عملية التثبيت بنجاج"
-    echo "جاري عملية اعادة تشغيل الانجما ....شكرا"
+    echo "************************************"
+    echo "         Ostende DmArabia           "
+    echo "************************************"
     systemctl restart enigma2
 else
-    echo "لم تتم عملية تثبيث الاضافة بالشكل الصحيح "
+    echo "************************************"
+    echo "       something went wrong         "
+    echo "************************************"
 fi
-echo "... تم التثبيت"
+echo "*** **** ***** **** ****"
+echo "***     done ...    ****"
+echo "***                 ****"
+echo "*** **** ***** **** ****"
 exit 0
